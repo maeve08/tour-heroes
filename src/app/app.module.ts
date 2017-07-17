@@ -19,9 +19,6 @@ import { StarRatingModule } from 'angular-star-rating';
 import { HeaderMainComponent } from './header-main/header-main.component';
 import { FooterComponent } from './footer/footer.component';
 import { HeaderContentComponent } from './header-content/header-content.component';
-import { ViewStoriesComponent } from './view-stories/view-stories.component';
-import { StoryComponent } from './story/story.component';
-import { ShareStoryComponent } from './share-story/share-story.component';
 
 
 @NgModule({
@@ -33,10 +30,7 @@ import { ShareStoryComponent } from './share-story/share-story.component';
     HeroSearchComponent,
     HeaderMainComponent,
     FooterComponent,
-    HeaderContentComponent,
-    ViewStoriesComponent,
-    StoryComponent,
-    ShareStoryComponent,
+    HeaderContentComponent
   ],
   imports: [
     BrowserModule,
